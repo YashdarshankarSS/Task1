@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div id="whole_container">
+        <div id="picture"></div>
+        <div id="form_container">
+            <form>
+                <h5>Welcome back</h5>
+                <h1>Login to your account</h1>
+                <br>
+                <h5>Email</h5>          
+                <input placeholder="john.snow@gmail.com" type="text" id="email">
+                <p class="error" id="emailerror">Please enter valid Email</p>
+                <br>
+                <br>
+                <h5>Password</h5>
+                <input placeholder="********" type="password" id="password">
+                <p class="error" id="passworderror">Please enter valid password</p>
+                <br><br>
+                <div id="remember_password">
+                    <input type="radio" id="remember">
+                    <label for="remember" style="margin-left: 5px;"> Remember me</label><br>
+                    <a href="forgot_password" id="forgot_password">Forgot password ? </a>
+                </div>
+                <br>
+                <button id="login_button" type="button" onclick="validate()">Login Now</button>
+                <br>
+                <button id="google_button"><img src="Assets/google4.png" alt="google" id="google_img" height="35%" width="5%" style="margin-right: 2px;">Or sign-in with google</button>
+                <div id="footer">
+                    <p>Dont have an account?    </p>
+                    <a href="#" id="join_free_today"> Join free today</a>
+                </div>         
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

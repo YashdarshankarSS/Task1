@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif,'roboto';    
+}
+
+#whole_container{
+    display: flex;
+    text-align: center;
+    height: 100vh;
+}
+
+#picture{
+  background-image: url("Assets/image2.jpg");
+  width: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h5{
+    color: rgb(128, 126, 126);
+}
+#form_container{
+    width: 50%;
+    padding-top: 10%;
+    text-align: center;
+    align-content: center;
+}
+form{
+    text-align: left;
+    width: 50%;
+    margin-left: 25%;
+}
+#password , #email{
+    width: 100%;
+    height: 40px;
+    border: solid gray 0.2px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#remember_password{
+    display: flex;
+    font-size: small;
+    color: rgb(94, 92, 92);
+}
+
+
+#google_button , #login_button{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#login_button{
+    background-color: #04c350;
+    color: white;
+    border: none;
+    font-size: medium;
+}
+
+#login_button:hover{
+    opacity: 0.8;
+}
+
+#google_button{
+    background-color: #404549;
+    color: white;
+    border: none;
+    font-size: medium;
+      
+}
+#google_button:hover{
+    opacity: 0.8;
+}
+/* #google_img{
+    height: 25px;
+    margin-left: 25%;
+    margin-top: 5px;
+    margin-right: 2.5%;
+
+}
+#google_text{
+    height: 100px;
+    margin-top: 9px;
+} */
+
+#forgot_password{
+    margin-left: 36%;
+}
+#join_free_today{
+    margin-left: 1%;
+}
+#footer{
+    display: flex;
+    font-size: small;
+    margin-left: 12%;
+    color: rgb(117, 116, 116);
+    margin-top: 30%;
+}
+a{
+    text-decoration: none;
+    color: #2b6cb0;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #2b6cb0;
+}
+.error{
+    color: red;
+    display: none;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 920px) {
+    #whole_container{
+        display: block;
+    }
+    #picture{
+        height: 100vh;
+        width: 100%;
+    }
+    
+    #form_container{
+        width: 100%;
+
+        padding-top: 10%;
+        text-align: center;
+        align-content: center;
+    
+
+    }
+    h1{
+        font-size:40px;
+    }
+    h5{
+        font-size: small;
+    }
+    #password , #email{
+        width: 70%;
+        height: 50px;
+        border: solid gray 0.2px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        padding-left: 10px;
+    }
+    
+    form{
+        text-align: left;
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    #forgot_password{
+        margin-left: 100px;
+    }
+    #google_button , #login_button{
+        width: 80%;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    #google_button{
+        background-color: #6c757d;
+        color: white;
+        border: none;
+        font-size: medium;    
+    }
+    
+    /* #google_img{
+        height: 25px;
+        margin-left: 15%;
+        margin-top: 4%;
+        margin-right: 2%;
+
+    }
+    #google_text{
+        height: 100px;
+        margin-top: 5%;
+    } */
+    #forgot_password{
+        margin-left: 7px;
+    }
+    #join_free_today{
+        margin-left: 40px;
+    }
+    #footer{
+        display: flex;
+        font-size: small;
+        margin-left: 10%;
+        color: rgb(94, 92, 92);
+        margin-top: 10%;
+    }   
+}
